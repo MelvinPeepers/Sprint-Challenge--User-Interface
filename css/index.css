@@ -102,6 +102,17 @@ nav a {
     opacity: 0.8;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+
+}
+
+nav .active-page {
+    color: dodgerblue;
+}
+
 /***************************************
 ****************************************
 
@@ -316,8 +327,18 @@ button {
     font-size: 16px;
 }
 
+button:hover {
+    background-color:dodgerblue;
+    transition: all 1s;
+}
+
 .bottom-about {
     display: flex;
     flex-direction: column;
     margin: 0 0 20px 15px;
+}
+
+.features img:hover {
+    transform: scale(1.01);
+    transition-duration: 0.5s;
 }

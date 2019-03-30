@@ -111,6 +111,9 @@ In your solution, it is essential that you follow best practices and produce cle
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
+* [x] Introduce CSS animations to your site.
+
+    Added some simple animiations to the buttons when you hover over them on the 'about.html' page and added color to he Navigation Menus when you're on the 'active' page.
+
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
