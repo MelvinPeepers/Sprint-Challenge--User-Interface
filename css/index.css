@@ -71,6 +71,58 @@ p {
     margin: 0 auto;
 }
 
+/***************************************
+****************************************
+
+Header / Nav
+
+****************************************
+***************************************/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+header img nav {
+    border: 1px solid red;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+nav a {
+    padding-right: 70px;
+    
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/***************************************
+****************************************
+
+jumbo-img
+
+****************************************
+***************************************/
+
+.jumbo-img {
+    margin-bottom: 30px;
+}
+
+/***************************************
+****************************************
+
+top-content
+
+****************************************
+***************************************/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +136,16 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+
+/***************************************
+****************************************
+
+middle-content
+
+****************************************
+***************************************/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +174,58 @@ p {
     justify-content: center;
 }
 
+
+.middle-content .boxes .box.box-one {
+    background-color: teal;
+}
+
+
+.middle-content .boxes .box.box-two {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box-three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box-four {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box-five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box-six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box-seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box-eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box-nine {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box-ten {
+    background-color: dodgerblue;
+}
+
+
+
+/***************************************
+****************************************
+
+bottom-content
+
+****************************************
+***************************************/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +239,16 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+
+/***************************************
+****************************************
+
+footer
+
+****************************************
+***************************************/
 
 footer {
     width: 100%;
