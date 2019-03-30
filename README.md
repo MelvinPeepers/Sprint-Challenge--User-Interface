@@ -114,6 +114,7 @@ After finishing your required elements, you can push your work further. These go
 * [x] Introduce CSS animations to your site.
 
     Added some simple animiations to the buttons when you hover over them on the 'about.html' page and added color to he Navigation Menus when you're on the 'active' page.
+    Also added a hover effect to the imges on the About.html page.
 
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
